@@ -8,7 +8,7 @@
     Excuse my grammar mistakes if you were to read this.
 
 ### Sources
-- Kubernetes for the Absolute Begginers - Hands-on: 
+- Kubernetes for the Absolute Beginners - Hands-on: 
 https://www.udemy.com/share/101to43@eQGLQ8woNvqMzI1jwzdOjklDoBOnhaW0vCX28lfawBUML7E3wvkiqj6r2nKldjgffw==/ 
 
 - Kubernetes Certified Application Developer (CKAD) with Tests:
