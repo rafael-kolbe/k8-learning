@@ -7,3 +7,9 @@ The `kubectl get` command is used to list resources in a Kubernetes cluster. It 
 ```bash
 kubectl get nodes
 ```
+
+##### List all pods in the default namespace:
+```bash
+kubectl get pods
+```
+
