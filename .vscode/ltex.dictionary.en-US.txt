@@ -3,3 +3,4 @@ kubernetes
 etcd
 kubelet
 Dockerhub
+Minikube

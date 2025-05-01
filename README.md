@@ -8,8 +8,11 @@
     Excuse my grammar mistakes if you were to read this.
 
 ### Sources
-- Kubernetes for the Absolute Beginners - Hands-on: 
+- **Kubernetes for the Absolute Beginners - Hands-on:** 
 https://www.udemy.com/share/101to43@eQGLQ8woNvqMzI1jwzdOjklDoBOnhaW0vCX28lfawBUML7E3wvkiqj6r2nKldjgffw==/ 
 
-- Kubernetes Certified Application Developer (CKAD) with Tests:
+- **Kubernetes Certified Application Developer (CKAD) with Tests:**
 https://www.udemy.com/share/101Eno3@DhIgSoPPkggpsDwsKF1J3tsH_UV5favsxi7TcfGWKhOPn4A-dylBoG484rDqbhma3w==/
+
+- **Minikube installation guide:**
+https://kubernetes.io/docs/tasks/tools/
