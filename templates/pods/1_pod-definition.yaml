@@ -7,8 +7,8 @@ metadata:
     type: frontend # Label for the app type
 spec:
   containers: # List of containers in the Pod
-    - name: nginx-container # Name of the container
-      image: nginx # Image to use for the container (from Dockerhub in this case)
+    - name: myapp-container # Name of the container
+      image: myapp-image:latest # Image to use for the container
       ports: # Ports to expose from the container
         - containerPort: 80 # Port number on the container
       env: # Environment variables to set in the container
@@ -19,4 +19,3 @@ spec:
           name: myapp-volume # Name of the volume to mount (must match the volume name below)
   volumes: # List of volumes available to the Pod
     - name: myapp-volume # Name of the volume
-    
