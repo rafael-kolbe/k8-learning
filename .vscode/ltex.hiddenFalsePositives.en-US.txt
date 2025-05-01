@@ -1,1 +1,2 @@
 {"rule":"MASS_AGREEMENT","sentence":"^\\QInstallation\nFollow the instructions on how to install Minikube in the README.md file.\\E$"}
+{"rule":"ETC_PERIOD","sentence":"^\\Qkubectl apply\nThe \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q command is used to apply a configuration to a resource (pod, deployment, service, etc).\\E$"}
