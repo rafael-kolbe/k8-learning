@@ -7,4 +7,4 @@ The `kubectl describe` command is used to display detailed information about a s
 ```bash
 kubectl describe pod <pod-name>
 ```
-_This includes information like IP, status, namespace, containers, and many others._
+_This includes information about IP, status, namespace, containers, and many others._
