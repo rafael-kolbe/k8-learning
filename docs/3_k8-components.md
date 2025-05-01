@@ -10,3 +10,7 @@
 
 `kubelet` - An agent that runs on each node in the cluster. It's responsible to make sure the containers are running as expected.
 
+---
+
+The Master node contains the API server, etcd, scheduler and controller. 
+The Worker nodes contain the kubelet and container runtime.

@@ -1,2 +1,4 @@
 CKAD
 kubernetes
+etcd
+kubelet
