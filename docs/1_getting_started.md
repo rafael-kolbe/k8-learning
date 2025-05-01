@@ -4,4 +4,4 @@ Images are template packages used to create containers with its own set of confi
 When creating a container, just specify the image. This can be done in a `yaml` file.
 Also, images are made and configured in a `Dockerfile` file.
 
- 
+Kubernetes is an orchestration technology that manages multiple containers.
