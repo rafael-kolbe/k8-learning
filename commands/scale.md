@@ -8,3 +8,8 @@ It's intended to be used for quick up or down scaling of resources, depending on
 ```bash
 kubectl scale deployment <deployment-name> --replicas=5
 ```
+
+##### Scale by using a file configuration:
+```bash
+kubectl scale --replicas=5 -f <file>
+```

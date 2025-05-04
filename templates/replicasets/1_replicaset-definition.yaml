@@ -14,8 +14,8 @@ spec:
         type: front-end # The ReplicaSet will match this label, any pods with it will be managed by this ReplicaSet
     spec:
       containers:
-      - name: nginx-container
-        image: nginx
+        - name: nginx-container
+          image: nginx
   replicas: 3 # Number of pods that should be running at all times
   selector: # This is a label selector to identify the pods managed by this ReplicaSet
     matchLabels:

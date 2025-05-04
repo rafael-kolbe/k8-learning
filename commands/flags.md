@@ -16,3 +16,10 @@ _This will add information such as node name, IP address, and container status t
 kubectl create -f 1_pod-definition.yaml
 ```
 _This will create a pod using the configuration defined in the `1_pod-definition.yaml` file._
+
+##### Target all resources
+- `--all`: This flag is used to target all resources of a specific type. It can be used with commands like `kubectl get`, `kubectl delete`, and `kubectl describe`.
+```bash
+kubectl delete pods --all
+```
+_This will delete all pods in the current namespace._

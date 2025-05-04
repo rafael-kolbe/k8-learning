@@ -9,13 +9,7 @@ spec:
   containers: # List of containers in the Pod
     - name: myapp-container # Name of the container
       image: myapp-image:latest # Image to use for the container
-      ports: # Ports to expose from the container
-        - containerPort: 80 # Port number on the container
       env: # Environment variables to set in the container
         - name: ENV_VAR_NAME # Name of the environment variable
           value: ENV_VAR_VALUE # Value of the environment variable
-      volumeMounts: # Volumes to mount into the container
-        - mountPath: /data # Path where the volume will be mounted in the container
-          name: myapp-volume # Name of the volume to mount (must match the volume name below)
-  volumes: # List of volumes available to the Pod
-    - name: myapp-volume # Name of the volume
+
