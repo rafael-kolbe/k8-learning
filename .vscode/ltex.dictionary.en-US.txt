@@ -4,3 +4,4 @@ etcd
 kubelet
 Dockerhub
 Minikube
+ReplicaSets
