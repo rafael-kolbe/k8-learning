@@ -1,0 +1,2 @@
+It's very similar to the Replication Controller, but it's necessary to specify a selector that defines which pods should be managed by the ReplicaSet.
+This is because ReplicaSets can take control of existing pods that match the selector, even if they were not created by the ReplicaSet itself.

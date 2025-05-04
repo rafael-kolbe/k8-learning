@@ -5,3 +5,5 @@ kubelet
 Dockerhub
 Minikube
 ReplicaSets
+ReplicaSet
+replicasets
