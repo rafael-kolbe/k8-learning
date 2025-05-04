@@ -4,7 +4,7 @@
 
 `Scheduler` - Distributes work on containers across multiples nodes, it looks for newly created containers and assigns them to nodes.
 
-`Controler` - The brain behind orchestration, responsible for noticing and responding when nodes, containers or endpoints does down. They make decisions to bring up new containers in such cases.
+`Controller` - The brain behind orchestration, responsible for noticing and responding when nodes, containers or endpoints does down. They make decisions to bring up new containers in such cases.
 
 `Container Runtime` - The underlying software that is used to run containers. Usually Docker.
 
