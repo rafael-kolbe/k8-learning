@@ -22,3 +22,13 @@ kubectl get rc
 ```bash
 kubectl get rs
 ```
+
+##### List all deployments in the current namespace:
+```bash
+kubectl get deployments
+```
+
+##### List all deployments, services, replicasets, and pods in the current namespace:
+```bash
+kubectl get all
+```

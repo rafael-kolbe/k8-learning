@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  template: # This is just the definition of a pod, without apiVersion and kind
+    metadata:
+      labels:
+        app: myapp
+        type: front-end # The Deployment will match this label, any pods with it will be managed by the ReplicaSet that this Deployment creates
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx
+  replicas: 3 # Number of pods that should be running at all times
+  selector: # This is a label selector to identify the pods managed by the ReplicaSet of this Deployment
+    matchLabels:
+      type: front-end # This selector matches the label on the pod template above

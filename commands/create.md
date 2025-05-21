@@ -3,7 +3,7 @@ The `kubectl create` command is used to create a resource in Kubernetes. It allo
 
 ---
 
-##### Create a new pod using a file configuration:
+##### Create a new resource using a file configuration:
 ```bash
 kubectl create -f <file>
 ```

@@ -1,0 +1,2 @@
+Deployments are a higher-level abstraction than ReplicaSets, and they manage ReplicaSets for you.
+They are responsible for rolling out updates to the application, scaling the application, and rolling back to previous versions. They are also responsible for ensuring that the desired number of replicas are running at all times.
