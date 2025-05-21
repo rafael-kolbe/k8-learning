@@ -8,3 +8,9 @@ ReplicaSets
 ReplicaSet
 replicasets
 replicaset
+eBPF
+KubeAdmin
+ClusterIP
+NodePort
+LoadBalancer
+NodePorts

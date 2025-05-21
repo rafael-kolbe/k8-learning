@@ -1,0 +1,7 @@
+Services are a way to connect different components in a cluster. They are used to connect the frontend and backend, or to connect different microservices, and even the frontend with the end user. They provide a stable endpoint for accessing pods, and they can also load balance traffic between multiple pods. Services are defined by a set of labels and selectors, which are used to identify the pods that the service should route traffic to. They can be exposed in different ways, such as NodePort, ClusterIP and LoadBalancer.
+
+NodePort: This service exposes a port on each node, and traffic sent using the IP address of the node and the port will be forwarded to the service. The service will then route the traffic to the appropriate pods. This is node recommended for production use, as it is not very secure and can expose your pods to the outside world. It is mainly used for testing and development purposes. NodePorts have a range of 30000-32767.
+
+ClusterIP: This service exposes a virtual IP address that is only accessible from within the cluster. It is the default service type and is used to connect different components within the cluster. It is not accessible from outside the cluster, and it is used for internal communication between pods.
+
+LoadBalancer: This service exposes a public IP address that can be accessed from outside the cluster. It is used to connect the cluster to the outside world and is typically used for production use, as it provides a stable endpoint for accessing your pods and can also load balance traffic between multiple pods.
