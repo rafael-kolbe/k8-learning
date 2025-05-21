@@ -1,0 +1,9 @@
+Kubernetes has its own networking model. Unlike in Docker where the IP is assigned to the container, in Kubernetes, the IP is assigned to the Pod. This means that all containers in a Pod share the same IP address and port. When multiple Pods are created, each Pod will get a unique IP address from this range. But using this IP address is not a good idea, as it is not persistent. If a Pod is deleted and recreated, it will get a new IP address. This is where Services come into play and will be explained later.
+
+It's easy to manage IP addresses when there is only one Node. But when a cluster is configured with multiple Nodes, the IP addresses of the Pods in different nodes could be the same. To solve this problem, Kubernetes uses a flat network model. This means that all Pods in the cluster can communicate with each other without any Network Address Translation (NAT). Also, all Nodes are able to communicate with any container in the cluster and vice versa.
+
+If you are configuring a cluster in your own environment (like with KubeAdmin), you would need to use one of the following networking solutions:
+- Flannel: Flannel is a simple and easy-to-use networking solution for Kubernetes. It creates a virtual network that allows Pods to communicate with each other across different Nodes.
+- Calico: Calico is a more advanced networking solution that provides network policy enforcement and security features. It uses a combination of IP routing and network policies to control traffic between Pods.
+- Weave Net: Weave Net is another networking solution that provides a simple and easy-to-use interface for managing network policies. It creates a virtual network that allows Pods to communicate with each other across different Nodes.
+- Cilium: Cilium is a networking solution that uses eBPF (extended Berkeley Packet Filter) to provide advanced networking and security features. It allows for fine-grained control over network policies and traffic management.
