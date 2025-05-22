@@ -17,3 +17,4 @@ NodePorts
 redis
 kubeadm
 postgres
+mysql
