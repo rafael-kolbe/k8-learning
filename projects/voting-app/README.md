@@ -30,3 +30,10 @@ kubectl create -f <file-name>
 minikube service voting-app-service --url
 minikube service result-app-service --url
 ```
+
+---
+
+### Notes
+It appears that the voting app doesn't work as expected. The logs show that the postgres container is having trouble to insert new votes.
+Since all containers are third-party images, I can't really fix the issue, unless I make my own versions of each image.
+But since this is a kubernetes repository for learning, the most important part is the definition files, which are correctly configured.

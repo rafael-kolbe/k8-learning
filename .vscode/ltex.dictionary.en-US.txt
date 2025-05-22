@@ -15,3 +15,5 @@ NodePort
 LoadBalancer
 NodePorts
 redis
+kubeadm
+postgres

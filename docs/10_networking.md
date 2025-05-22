@@ -2,7 +2,7 @@ Kubernetes has its own networking model. Unlike in Docker where the IP is assign
 
 It's easy to manage IP addresses when there is only one Node. But when a cluster is configured with multiple Nodes, the IP addresses of the Pods in different nodes could be the same. To solve this problem, Kubernetes uses a flat network model. This means that all Pods in the cluster can communicate with each other without any Network Address Translation (NAT). Also, all Nodes are able to communicate with any container in the cluster and vice versa.
 
-If you are configuring a cluster in your own environment (like with KubeAdmin), you would need to use one of the following networking solutions:
+If you are configuring a cluster in your own environment (like with kubeadm), you would need to use one of the following networking solutions:
 - Flannel: Flannel is a simple and easy-to-use networking solution for Kubernetes. It creates a virtual network that allows Pods to communicate with each other across different Nodes.
 - Calico: Calico is a more advanced networking solution that provides network policy enforcement and security features. It uses a combination of IP routing and network policies to control traffic between Pods.
 - Weave Net: Weave Net is another networking solution that provides a simple and easy-to-use interface for managing network policies. It creates a virtual network that allows Pods to communicate with each other across different Nodes.
