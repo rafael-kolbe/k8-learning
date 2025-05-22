@@ -37,3 +37,8 @@ kubectl get services
 ```bash
 kubectl get all
 ```
+
+##### List all resources in all namespaces:
+```bash
+kubectl get all --all-namespaces
+```
