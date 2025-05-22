@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: myapp-replicaset
+  namespace: default # Namespace where the ReplicaSet will be created
   labels:
     app: myapp
     type: front-end

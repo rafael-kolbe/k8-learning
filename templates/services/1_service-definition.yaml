@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: myapp-service
+  namespace: default # Namespace where the Service will be created
 spec:
   type: NodePort # Can also be ClusterIP or LoadBalancer
   ports:

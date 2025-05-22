@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp-deployment
+  namespace: default # Namespace where the Deployment will be created
   labels:
     app: myapp
     type: front-end

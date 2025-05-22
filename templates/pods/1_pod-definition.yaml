@@ -2,6 +2,7 @@ apiVersion: v1 # Correct version for a Pod kind
 kind: Pod # The kind of resource
 metadata:
   name: myapp-pod # Name of the Pod
+  namespace: default # Namespace where the Pod will be created
   labels: # This can have ANY key/values, app and type are just examples
     app: myapp # Label for the app name
     type: frontend # Label for the app type
