@@ -7,3 +7,8 @@ The `kubectl create` command is used to create a resource in Kubernetes. It allo
 ```bash
 kubectl create -f <file>
 ```
+
+##### Create a new resource in a different namespace:
+```bash
+kubectl create -f <file> -n <namespace>
+```
